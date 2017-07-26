@@ -10,7 +10,7 @@ Ultimately, we want to be able to create profiles for individual people, and the
 
 Ultimately, we want to be able to create new profiles in our **test.rb** file with a lines of code that look like this:
 
-```swift
+```Ruby
 first_profile = Profile.new("Nicki")
 second_profile = Profile.new("Sarah")
 ```
@@ -19,7 +19,7 @@ In order for that code to work, you'll need to write an initializer method in ou
 
 <details>
   <summary>Click to see an example</summary>
-  ```swift
+  ```Ruby
   class Profile
 
     def initialize(name)
@@ -37,7 +37,7 @@ When you think you're ready to test your code, enter the command `ruby test.rb` 
 
 We also want to be able to print out someone's name in our **test.rb** file with a line of code that look like this one:
 
-```swift
+```Ruby
 puts(first_profile.name)
 ```
 
@@ -47,7 +47,7 @@ In order for that code to work, you'll need to write a reader method in our **pr
 
 <details>
   <summary>Click to see an example</summary>
-  ```swift
+  ```Ruby
   class Profile
 
     def initialize(name)
@@ -70,7 +70,7 @@ One last thing: we also need to be able to change someone's name. If someone nam
 
 Let's attempt to change someone's name in our **test.rb** file by adding a few lines of code that look like these:
 
-```swift
+```Ruby
 first_profile.name = "Nicki the Great"
 puts(first_profile.name) #print out their name to make sure the change worked.
 ```
@@ -79,7 +79,7 @@ In order for that code to run, you'll need to write a writer method in our **pro
 
 <details>
   <summary>Click to see an example</summary>
-  ```swift
+  ```Ruby
   class Profile
 
     def initialize(name)
@@ -95,7 +95,7 @@ In order for that code to run, you'll need to write a writer method in our **pro
     end
 
   end
-  ```
+  ``
 </details>
 
 When you think you're ready to test your code, enter the command `ruby test.rb` in terminal.
