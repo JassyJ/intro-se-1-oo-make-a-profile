@@ -111,11 +111,11 @@ Now that you've written an initializer method, a reader method, and a writer met
 
 **Give your Profile at least three more attributes, and write a reader / writer method for each of them.** Reference your own Facebook, Insta, or Twitter profiles to see what sort of information is usually on a profile.
 
-If you need some ideas, here are some other attributes that we could give each profile:
-    * `@age` which stores a user's age as an integer
-    * `@verified` which is a boolean that tells whether a user is verified or not
-    * `@email` which stores a user's email address as a string
-    * BONUS: `@favorite_movies` which is an array of the user's favorite movies, stored as strings.
+If you need some ideas, here are some other attributes that we could give each profile: 
+  - `@age` which stores a user's age as an integer
+  - `@verified` which is a boolean that tells whether a user is verified or not
+  - `@email` which stores a user's email address as a string
+  - BONUS: `@favorite_movies` which is an array of the user's favorite movies, stored as strings.
 
 ### Learn the shorter, faster way
 
