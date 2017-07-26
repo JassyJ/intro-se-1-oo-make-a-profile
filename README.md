@@ -19,6 +19,7 @@ In order for that code to work, you'll need to write an initializer method in ou
 
 <details>
   <summary>Click to see an example</summary>
+
   ```Ruby
   class Profile
 
@@ -27,8 +28,8 @@ In order for that code to work, you'll need to write an initializer method in ou
     end
 
   end
-
   ```
+
 </details>
 
 When you think you're ready to test your code, enter the command `ruby test.rb` in terminal.
@@ -47,6 +48,7 @@ In order for that code to work, you'll need to write a reader method in our **pr
 
 <details>
   <summary>Click to see an example</summary>
+
   ```Ruby
   class Profile
 
@@ -60,6 +62,7 @@ In order for that code to work, you'll need to write a reader method in our **pr
 
   end
   ```
+
 </details>
 
 When you think you're ready to test your code, enter the command `ruby test.rb` in terminal.
@@ -79,6 +82,7 @@ In order for that code to run, you'll need to write a writer method in our **pro
 
 <details>
   <summary>Click to see an example</summary>
+
   ```Ruby
   class Profile
 
@@ -95,7 +99,8 @@ In order for that code to run, you'll need to write a writer method in our **pro
     end
 
   end
-  ``
+  ```
+
 </details>
 
 When you think you're ready to test your code, enter the command `ruby test.rb` in terminal.
