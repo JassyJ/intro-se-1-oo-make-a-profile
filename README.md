@@ -2,13 +2,13 @@
 
 ## The goal:
 
-Today, we're learning about creating instances (individual versions) of classes (Types that we use a blueprints). This will unlock a lot of power for us later, but getting a class off the ground takes a lot of work - especially when it comes to the core initializer, reader, and writer methods.
+Today, we're learning about creating instances (individual versions) of classes (Types that we use as blueprints). This will unlock a lot of power for us later, but getting a class off the ground takes a lot of work - especially when it comes to the core initializer, reader, and writer methods.
 
-Ultimately, we want to be able to create profiles for individual people, and then access and  change the data we have about those people.
+Our end goal is to be able to create profiles for individual people, and then access and change the data we have about those people.
 
 ### Write an initializer method
 
-Ultimately, we want to be able to create new profiles in our **test.rb** file with a lines of code that look like this:
+Ultimately, we want to be able to create new profiles in our **test.rb** file with lines of code that look like this:
 
 ```Ruby
 first_profile = Profile.new("Nicki")
@@ -44,7 +44,7 @@ puts(first_profile.name)
 
 Add code to your test.rb file that attempts to print the name of one of your profiles out to the console.
 
-In order for that code to work, you'll need to write a reader method in our **profile_class.rb** file for the Profile class - otherwise, Ruby has no way off knowing what your `.name` method might might mean. Try to do it on your own, but if you need an example, click the dropdown to see one way to do it.
+In order for that code to work, you'll need to write a reader method in our **profile_class.rb** file for the Profile class - otherwise, Ruby has no way of knowing what your `.name` method might might mean. Try to do it on your own, but if you need an example, click the dropdown to see one way to do it.
 
 <details>
   <summary>Click to see an example</summary>
@@ -78,7 +78,7 @@ first_profile.name = "Nicki the Great"
 puts(first_profile.name) #print out their name to make sure the change worked.
 ```
 
-In order for that code to run, you'll need to write a writer method in our **profile_class.rb** file for the Profile class - otherwise, Ruby has no way off knowing what your `.name = "new name"` method might might mean. Try to do it on your own, but if you need an example, click the dropdown to see one way to do it.
+In order for that code to run, you'll need to write a writer method in our **profile_class.rb** file for the Profile class - otherwise, Ruby has no way of knowing what your `.name = "new name"` method might might mean. Try to do it on your own, but if you need an example, click the dropdown to see one way to do it.
 
 <details>
   <summary>Click to see an example</summary>
