@@ -6,7 +6,7 @@ Today, we're learning about creating instances (individual versions) of classes 
 
 Our end goal is to be able to create profiles for individual people, and then access and change the data we have about those people.
 
-### Write an initializer method
+## Write an initializer method
 
 Ultimately, we want to be able to create new profiles in our **test.rb** file with lines of code that look like this:
 
@@ -34,7 +34,7 @@ In order for that code to work, you'll need to write an initializer method in ou
 
 When you think you're ready to test your code, enter the command `ruby test.rb` in terminal.
 
-### Write a reader (or getter) method
+## Write a reader (or getter) method
 
 We also want to be able to print out someone's name in our **test.rb** file with a line of code that look like this one:
 
@@ -67,7 +67,7 @@ In order for that code to work, you'll need to write a reader method in our **pr
 
 When you think you're ready to test your code, enter the command `ruby test.rb` in terminal.
 
-### Write a writer (or setter) method
+## Write a writer (or setter) method
 
 One last thing: we also need to be able to change someone's name. If someone named "Ellen" decides to start going by "Eli", we want to give that person permission to do so. We need a writer method.
 
@@ -106,7 +106,6 @@ In order for that code to run, you'll need to write a writer method in our **pro
 When you think you're ready to test your code, enter the command `ruby test.rb` in terminal.
 
 #### On your own:
------
 
 Make sure you've got the syntax down. adding in an instance variable called `@age` which stores a user's age as an integer. In order to add this property *and* test to see if it worked, you'll need to do a minimum of four things:
 
@@ -121,7 +120,7 @@ first_profile.age = 27
 puts(first_profile.age) # If we did it all correctly, this code ought to print out the user's age.
 ```
 
-### Write three more reader and writer methods.
+## Write three more reader and writer methods
 
 Now that you've written an initializer method, a reader method, and a writer method, you should practice and make sure you understand how this works.
 
@@ -133,7 +132,7 @@ If you need some ideas, here are some other attributes that we could give each p
   - `@email` which stores a user's email address as a string
   - BONUS: `@favorite_movies` which is an array of the user's favorite movies, stored as strings.
 
-### Learn the shorter, faster way
+## Learn the shorter, faster way
 
 Did this feel tedious?
 
