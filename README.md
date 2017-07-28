@@ -5,6 +5,7 @@
 Today, we're learning about creating instances (individual versions) of classes (Types that we use as blueprints). This will unlock a lot of power for us later, but getting a class off the ground takes a lot of work - especially when it comes to the core initializer, reader, and writer methods.
 
 Our end goal is to be able to create profiles for individual people, and then access and change the data we have about those people.
+<br><br>
 
 ## Write an initializer method
 
@@ -31,8 +32,9 @@ In order for that code to work, you'll need to write an initializer method in ou
   ```
 
 </details>
-
+<br>
 When you think you're ready to test your code, enter the command `ruby test.rb` in terminal.
+<br><br>
 
 ## Write a reader (or getter) method
 
@@ -64,8 +66,9 @@ In order for that code to work, you'll need to write a reader method in our **pr
   ```
 
 </details>
-
+<br>
 When you think you're ready to test your code, enter the command `ruby test.rb` in terminal.
+<br><br>
 
 ## Write a writer (or setter) method
 
@@ -102,8 +105,9 @@ In order for that code to run, you'll need to write a writer method in our **pro
   ```
 
 </details>
-
+<br>
 When you think you're ready to test your code, enter the command `ruby test.rb` in terminal.
+<br><br>
 
 #### On your own:
 
@@ -119,6 +123,7 @@ first_profile.age = 27
 ```Ruby
 puts(first_profile.age) # If we did it all correctly, this code ought to print out the user's age.
 ```
+<br><br>
 
 ## Write three more reader and writer methods
 
@@ -131,7 +136,7 @@ If you need some ideas, here are some other attributes that we could give each p
   - `@verified` which is a boolean that tells whether a user is verified or not
   - `@email` which stores a user's email address as a string
   - BONUS: `@favorite_movies` which is an array of the user's favorite movies, stored as strings.
-
+<br><br>
 ## Learn the shorter, faster way
 
 Did this feel tedious?
