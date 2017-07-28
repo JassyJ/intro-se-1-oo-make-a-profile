@@ -105,7 +105,8 @@ In order for that code to run, you'll need to write a writer method in our **pro
 
 When you think you're ready to test your code, enter the command `ruby test.rb` in terminal.
 
-##### On your own:
+#### On your own:
+===
 
 Make sure you've got the syntax down. adding in an instance variable called `@age` which stores a user's age as an integer. In order to add this property *and* test to see if it worked, you'll need to do a minimum of four things:
 
